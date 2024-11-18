@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ipt-project</string>
+    <string name="title_activity_main">ipt-project</string>
+    <string name="package_name">ipt.project</string>
+    <string name="custom_url_scheme">ipt.project</string>
+</resources>

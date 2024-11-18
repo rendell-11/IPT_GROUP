@@ -1,0 +1,82 @@
+/* Styles for the Category Image Placeholder */
+.category-image {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-weight: bold;
+}
+
+/* Styling the Product Card */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  /* Makes the card contents stack vertically */
+  justify-content: space-between;
+  /* Distributes space between image and content */
+  height: 350px;
+  /* Increased height to make the card taller */
+  width: 100%;
+  /* Ensures it takes the full width of the column */
+  max-width: 250px;
+  /* Limits the width, making the card narrower */
+  position: relative;
+  overflow: hidden;
+  /* Ensures content doesn't overflow */
+  border-radius: 8px;
+  text-align: center;
+  /* Center aligns text in the card */
+}
+
+/* Styling the Product Image */
+.product-image {
+  width: 100%;
+  height: 200px;
+  /* Height for image, can be adjusted */
+  object-fit: cover;
+  /* Ensures the image covers the area without distortion */
+  border-radius: 8px 8px 0 0;
+  /* Rounds the top corners */
+}
+
+/* Overlay Content on Image */
+.overlay-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  /* Semi-transparent background */
+  color: #fff;
+  /* White text color for visibility */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Styling the Product Name */
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 4px 0;
+  /* Consistent margin */
+}
+
+/* Styling the Product Price */
+.product-price {
+  font-size: 1rem;
+  color: #f9f5f5;
+  margin: 5px 0;
+}
+
+/* Styling the Card Content */
+ion-card-content {
+  padding: 8px 0;
+  /* Consistent padding for card content */
+}
